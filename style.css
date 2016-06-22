@@ -12,4 +12,28 @@
 			width: 260px;
 			float: right;
 			background-color: #EAE785;
-		}
+	}
+
+	@media screen and (max-width:959px){
+			#container
+				width:100%;
+			}
+			#left_column{
+				width: 70%;
+			}
+			#right_column{
+					width: 70%;
+	}
+
+	@media screen and (max-width:640px){
+			#left_column{
+				width: 100%;
+			}
+			#right_column{
+				width: 100%;
+			}
+
+		@media screen and (max-width:320px){
+			#container{
+				width: 320px;
+			}
